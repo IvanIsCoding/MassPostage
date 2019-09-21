@@ -33,7 +33,7 @@ MassPostage takes three main arguments: the CSV file, the email body and the cam
 
 The CSV file contains the data that will be replaced in the email body to generate personalized emails.
 
-The email body should be a text file with the content of the message. To use the content from each line of the CSV, insert the exact name of the column inside double curly brackets like `Column Name` (disclaimer: column names are case sensitive). An example of a file would be:
+The email body should be a text file with the content of the message. To use the content from each line of the CSV, insert the exact name of the column inside double curly brackets like `{{Column Name}}` (disclaimer: column names are case sensitive). An example of a file would be:
 
 ```
 TO: {{Email Adddress}}
