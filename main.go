@@ -89,6 +89,13 @@ func main() {
 	// Processing CLI arguments
 	args := os.Args[1:]
 
+	if len(args) < 3{
+		fmt.Println("Too few arguments")
+		fmt.Println("Usage: masspost <csv file> <email body> <campaign name>")
+		fmt.Println("Example: masspost example.csv example.eml ExampleCampaign")
+		return
+	}
+
 	csvFile := args[0]
 	textFile := args[1]
 	campaignName := args[2]
