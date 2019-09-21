@@ -1,7 +1,7 @@
 # MassPostage
 A simple command line mail merge app written in Go.
 
-`MassPostage` uses plain text files and CSV files to generate email files that can .
+`MassPostage` uses plain text files and CSV files to generate personalized email files that can later be sent using regular email apps.
 
 **Table of Contents**
 - [Quickstart](#quickstart)
